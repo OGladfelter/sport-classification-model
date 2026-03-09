@@ -1,4 +1,12 @@
 # Sport Classification Model
+<ul>
+    <li>Oliver Gladfelter</li>
+    <li>Camille Dominique Javier</li>
+    <li>Alekhya Katreddy</li>
+    <li>Stephanie Li</li>
+    <li>Estella Hu</li>
+    <li>Sola Shin</li>
+</ul>
 
 Our primary objective is to develop a supervised classification model that accurately predicts the sport type (bike ride, run, walk, etc) of a given activity based on its recorded metrics.
 
@@ -8,13 +16,18 @@ Our classification model will accurately classify the sport type of workouts - p
 
 An additional stretch goal is to distinguish between standard bicycle rides and e-bike rides. Distinguishing e-bike rides from standard bicycle rides is a growing concern on platforms like Strava, where e-bike users may unfairly claim leaderboard positions. A robust classification model can flag suspicious activities for review.
 
+<br>
+
 # Files
 
-01-data-cleaning-and-feature-engineering.ipynb
+| File | Description |
+| --- | --- |
+| 01-data-cleaning-and-feature-engineering.ipynb | Clean raw data and process for EDA and modeling
+| 02-eda.ipynb | EDA of data, explore correlations, create data viz
+| 03-modeling.ipynb | Test out multiple models, perform grid searchs, hyperparameter tuning
+| 04-external validation.ipynb | Test final model on a holdout dataset (unseen data) and check for overfitting
 
-02-eda.ipynb
-
-03-modeling.ipynb
+<br>
 
 # Data dictionary 
 - id - unique ID for workout
