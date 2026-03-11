@@ -3,7 +3,7 @@
     <li>Oliver Gladfelter</li>
     <li>Camille Dominique Javier</li>
     <li>Alekhya Katreddy</li>
-    <li>Stephanie Li</li>
+    <li>Qi Li</li>
     <li>Estella Hu</li>
     <li>Sola Shin</li>
 </ul>
